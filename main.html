@@ -27,9 +27,39 @@
 
   <p id="Resultado"></p>
 
+  <table>
+    <tr>
+      <th>Faixa de IMC</th>
+      <th>Situação</th>
+    </tr>
+    <tr id="linha1">
+      <td>Entre 17 e 18.49</td>
+      <td>Abaixo do peso</td>
+    </tr>
+    <tr id="linha2">
+      <td>Entre 18.5 e 24.99</td>
+      <td>Peso normal</td>
+    </tr>
+    <tr id="linha3">
+      <td>Entre 25 e 29.99</td>
+      <td>Acima do peso</td>
+    </tr>
+    <tr id="linha4">
+      <td>Entre 30 e 34.99</td>
+      <td>Obesidade I</td>
+    </tr>
+    <tr id="linha5">
+      <td>Entre 35 e 39.99</td>
+      <td>Obesidade II (severa)</td>
+    </tr>
+    <tr id="linha6">
+      <td>Acima de 40</td>
+      <td>Obesidade III (mórbida)</td>
+    </tr>
+  </table>
 
 
-  <script>
+ <script>
     function calcula() {
       let peso = Number(document.getElementById('peso').value);
       let altura = Number(document.getElementById('altura').value);
